@@ -1,5 +1,5 @@
-import { ContentView } from 'tns-core-modules/ui/content-view';
-import { Property, booleanConverter } from 'tns-core-modules/ui/core/view';
+import { ContentView } from '@nativescript/core/ui';
+import { Property } from '@nativescript/core';
 
 export class Shimmer extends ContentView {
   public enabled: boolean = true;
